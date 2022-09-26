@@ -1,0 +1,102 @@
+.formContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titleBox {
+  margin-bottom: 4.8rem;
+}
+
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 2.4rem;
+}
+
+.desc {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--black-light);
+}
+
+.fieldWrapper {
+  margin-bottom: 2.4rem;
+  width: 100%;
+}
+
+.fieldWrapper__twoInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldWrapper label,
+.fieldWrapper div label {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-bottom: 0.8rem;
+}
+
+.input {
+  display: block;
+  background-color: #fff;
+  border: 1px solid var(--black-mid-opacity);
+  border-radius: 8px;
+  padding: 16px 12px;
+  box-shadow: 0px 2px 4px var(--black-low-opacity);
+  width: 100%;
+}
+
+.cardElementsBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expBox,
+.cvcBox {
+  width: 48%;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 0;
+  border-radius: 20px;
+  margin-top: 2.4rem;
+  width: 100%;
+}
+
+.centered {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 0.6rem;
+}
+
+.retryIcon {
+  margin-right: 0.8rem;
+}
+
+.btn__error {
+  width: 60%;
+  padding: 1.4rem 0;
+  background-color: var(--color-primary-dark);
+}

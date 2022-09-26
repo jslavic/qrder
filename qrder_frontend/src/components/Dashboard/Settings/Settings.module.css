@@ -1,0 +1,240 @@
+.mainBox {
+  padding: 2.4rem 0;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-primary-dark);
+}
+
+.contentBox {
+  width: 100%;
+  padding: 4.4rem;
+  color: var(--black);
+  letter-spacing: -0.5px;
+  border-radius: 20px;
+  background-color: var(--white);
+  margin-bottom: 7.2rem;
+}
+
+.subtitleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7.2rem;
+}
+
+.subtitle {
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--black);
+}
+
+.settingsSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settingsSection:not(:last-child) {
+  margin-bottom: 6.4rem;
+}
+
+.setting {
+  width: 70%;
+}
+
+.settingsText {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.settingsDesc {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: var(--black-light);
+}
+
+.settingsBtn {
+  font-weight: bold;
+  background-color: var(--color-primary-dark);
+  color: var(--white);
+  font-size: 1.6rem;
+  padding: 12px 32px;
+  border-radius: 8px;
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.settingsBtn:disabled {
+  opacity: 0.5;
+  background-color: var(--color-green);
+}
+
+.settingsBtn:disabled:hover {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.settingsBtn:hover {
+  opacity: 0.8;
+}
+
+.settingsSelect {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.6rem;
+  border: 1px solid var(--black-mid-opacity);
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0px 2px 4px var(--black-low-opacity);
+}
+
+.disabledSwitch:hover,
+.disabledSwitch *:hover,
+.disabledSwitch * *:hover {
+  cursor: not-allowed !important;
+}
+
+.subscriptionCard {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--color-primary-dark);
+}
+
+.subscriptionCard__notActive {
+  background-color: var(--color-red);
+  margin-bottom: 2.8rem;
+}
+
+.subscriptionTitle {
+  font-size: 3.2rem;
+  color: var(--white);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+}
+
+.subscriptionPlan {
+  text-transform: capitalize;
+  font-size: 4.8rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
+}
+
+.subscriptionContent {
+  background-color: var(--white);
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  letter-spacing: -0.5px;
+}
+
+.highlighted {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+.subscriptionPaymentBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 4.8rem;
+}
+
+.subscriptionSubtitle {
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.subscriptionCardInfo {
+  display: flex;
+  align-items: center;
+}
+
+.subscriptionCardIconBox {
+  display: flex;
+  align-items: center;
+  margin-right: 1.2rem;
+}
+
+.subscriptionCardIconBox svg {
+  width: 40px;
+  height: 40px;
+}
+
+.subscriptionCardBrand {
+  text-transform: capitalize;
+}
+
+.subscriptionCardExpiry {
+  color: var(--black-light);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.subscriptionCardEdit {
+  font-size: 1.8rem;
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  margin-left: 3.2rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.subscriptionCardEdit:hover {
+  opacity: 0.5;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnBox button:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.newSubscriptionBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 1.4rem 3.2rem;
+  border-radius: 20px;
+}
+
+.btn__changeSubscription {
+  background-color: var(--color-primary-dark);
+}
+
+.btn__cancelSubscription {
+  background-color: var(--color-red);
+}
+
+.btn__startSubscription {
+  background-color: var(--color-green);
+}
+
+.btn__newSubscription {
+  background-color: var(--color-primary-dark);
+  padding: 1.8rem 3.6rem;
+}

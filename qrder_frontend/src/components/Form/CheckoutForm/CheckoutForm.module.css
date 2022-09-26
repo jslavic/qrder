@@ -1,0 +1,95 @@
+.checkoutLink,
+.checkoutLink:link,
+.checkoutLink:visited {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: 300ms all;
+}
+
+.checkoutLink:hover,
+.checkoutLink:active {
+  opacity: 0.8;
+}
+
+.planTitle {
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
+
+.planHightlight {
+  display: block;
+  color: var(--color-primary);
+}
+
+.fieldWrapper {
+  margin-bottom: 2.4rem;
+  width: 100%;
+}
+
+.fieldWrapper__twoInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldWrapper label,
+.fieldWrapper div label {
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-bottom: 0.8rem;
+}
+
+.input {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  border-radius: 8px;
+  padding: 16px 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+.expBox {
+  width: 45%;
+}
+
+.cvcBox {
+  width: 45%;
+}
+
+.extra {
+  margin-top: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.priceBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.priceText {
+  color: var(--black-light);
+  font-size: 1.6rem;
+}
+
+.priceAmount {
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.disclaimer {
+  color: var(--black-light);
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.text {
+  font-size: 5rem;
+}

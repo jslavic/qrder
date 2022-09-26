@@ -1,0 +1,33 @@
+.btn,
+.btn:link,
+.btn:visited {
+  color: #fff;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px 0px inset,
+    rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+  font-size: var(--default-fontsize);
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  padding: 0.6rem 2.2rem;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+  box-shadow: rgb(255 255 255 / 1%) 0px 1px 1px 0px inset,
+    rgb(0 0 0 / 1%) 0px 4px 8px 0px;
+}
+
+.btnPrimary,
+.btnPrimary:link,
+.btnPrimary:visited {
+  background: linear-gradient(180deg, #8161ff 0%, #865ef6 100%);
+}
+
+.btnSecondary,
+.btnSecondary:link,
+.btnSecondary:visited {
+  background-color: rgba(234, 232, 242, 0.2);
+}

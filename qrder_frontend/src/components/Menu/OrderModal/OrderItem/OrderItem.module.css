@@ -1,0 +1,85 @@
+.item {
+  display: flex;
+  padding: 2rem 0;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.amountInfo {
+  font-size: 2rem;
+  margin-right: 2.2rem;
+}
+
+.amount {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+
+.btn {
+  border: 0;
+  transition: 300ms all;
+  background-color: transparent;
+}
+
+.btn:hover,
+.btn:active {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn__edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary-opacity);
+  border: 0;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.icon__edit {
+  fill: var(--color-primary);
+  width: 70%;
+}
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.desc {
+  font-size: 1.6rem;
+  color: var(--black-light);
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.price {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnBox button:not(:last-child) {
+  margin-right: 1.8rem;
+}
+
+.icon {
+  display: flex;
+  position: relative;
+  background-color: var(--color-primary-opacity);
+  border-radius: 50%;
+  transition: 300ms all;
+  width: 24px;
+  height: 24px;
+}

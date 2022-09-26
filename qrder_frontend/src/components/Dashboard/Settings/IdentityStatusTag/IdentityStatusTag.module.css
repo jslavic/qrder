@@ -1,0 +1,21 @@
+.unverified,
+.pending,
+.verified {
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 1px 8px;
+  border-radius: 20px;
+  color: var(--white);
+  margin-left: 1.2rem;
+}
+.unverified {
+  background-color: var(--color-red);
+}
+
+.pending {
+  background-color: var(--color-grey);
+}
+
+.verified {
+  background-color: var(--color-green);
+}

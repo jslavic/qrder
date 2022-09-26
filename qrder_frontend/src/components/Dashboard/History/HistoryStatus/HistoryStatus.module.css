@@ -1,0 +1,19 @@
+.tag {
+  display: inline-block;
+  padding: 2px 16px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.tag__accepted {
+  background-color: var(--color-green);
+}
+
+.tag__paid {
+  background-color: var(--color-primary-dark);
+}
+
+.tag__submitted {
+  background-color: var(--black-light);
+}

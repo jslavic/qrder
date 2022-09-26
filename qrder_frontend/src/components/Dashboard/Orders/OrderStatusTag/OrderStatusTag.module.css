@@ -1,0 +1,18 @@
+.tag {
+  font-size: 1.2rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.tag__pending {
+  background-color: var(--black-light);
+}
+
+.tag__accepted {
+  background-color: var(--color-green);
+}
+
+.tag__paid {
+  background-color: var(--color-primary-dark);
+}

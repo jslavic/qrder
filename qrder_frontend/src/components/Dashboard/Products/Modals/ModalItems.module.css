@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 0.5rem;
+  transition: 300ms all;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.info {
+  font-size: 1.3rem;
+  letter-spacing: -0.1px;
+  line-height: 1.2;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.btn {
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+  transition: none;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+}
+
+.btn__add {
+  background-color: var(--color-primary-dark);
+}
+
+.btn__remove {
+  background-color: var(--color-red);
+}

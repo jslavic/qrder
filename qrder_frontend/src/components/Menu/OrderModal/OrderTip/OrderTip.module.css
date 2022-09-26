@@ -1,0 +1,181 @@
+.content {
+  position: absolute;
+  padding: 6rem 4rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  font-size: 3.6rem;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: var(--color-primary);
+}
+
+.boxTitle {
+  display: flex;
+  align-items: center;
+}
+
+.tipPercentageBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tipPercentageBox div {
+  width: 19%;
+}
+
+.tipPercentageBox div input {
+  display: none;
+}
+
+.tipPercentageBox div label {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 8rem;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 5%);
+  border-radius: 10px;
+  transition: 300ms;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tipPercentageBox div label div {
+  display: flex;
+  justify-content: center;
+}
+
+.tipPercentageBox div label:hover {
+  background-color: #eee;
+}
+
+.tipPercentageBox div input:checked ~ label {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+
+.percentageText {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.percentageToPriceText {
+  font-size: 1.4rem;
+  color: var(--black-light);
+  transition: all 300ms;
+}
+
+input:checked ~ label .percentageToPriceText {
+  color: var(--white);
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  background: #fff;
+  margin: 3.2rem 0;
+}
+
+.divider::after {
+  content: "";
+  border-top: 1px dotted #000;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.dividerText {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--black-light);
+
+  background-color: inherit;
+  position: relative;
+  display: inline-block;
+  padding: 0 1rem;
+  z-index: 1;
+}
+
+.customAmountBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customAmountText {
+  font-size: 1.6rem;
+}
+
+.customAmountBox input {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.6rem;
+  width: 12rem;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.finalPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.price {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  color: var(--white);
+  background-color: var(--color-primary);
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.8rem 0;
+  border-radius: 30px;
+  width: 49%;
+}
+
+.btn__red {
+  background-color: var(--color-red);
+}
+
+.btn__green {
+  background-color: var(--color-primary);
+}

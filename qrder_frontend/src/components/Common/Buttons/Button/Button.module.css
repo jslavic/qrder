@@ -1,0 +1,14 @@
+.btn {
+  color: var(--white);
+  font-size: 1.4rem;
+  padding: 0.8rem 2.4rem;
+  border-radius: 10px;
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+}

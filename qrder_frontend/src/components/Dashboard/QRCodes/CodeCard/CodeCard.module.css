@@ -1,0 +1,41 @@
+.card {
+  border: 1.5px solid var(--black-mid-opacity);
+  box-shadow: 0 1.5rem 3rem var(--black-low-opacity);
+  border-radius: 10px;
+  width: 26rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  padding: 1rem;
+  border-bottom: 1.5px solid var(--black-mid-opacity);
+}
+
+.qrCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px solid var(--black-mid-opacity);
+}
+
+.btn__edit,
+.btn__delete {
+  padding: 1.2rem 1.6rem;
+}
+
+.btn__edit {
+  background-color: var(--color-primary-dark);
+}
+
+.btn__delete {
+  background-color: var(--color-red);
+}

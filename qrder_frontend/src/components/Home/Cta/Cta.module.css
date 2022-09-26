@@ -1,0 +1,37 @@
+.cta {
+  padding: 0 9.6rem;
+}
+
+.card {
+  background: url(../../../assets/cta_background.svg),
+    linear-gradient(to bottom right, #101012, #191333);
+  margin: 0 auto;
+  max-width: 120rem;
+  border-radius: 20px;
+  padding: 9.6rem;
+
+  background-position: 100% 0%;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 60%;
+}
+
+.title {
+  font-size: 4.8rem;
+  letter-spacing: -2px;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.desc {
+  color: #bbb;
+  margin-bottom: 4.8rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.2rem;
+}

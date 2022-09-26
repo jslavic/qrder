@@ -1,0 +1,18 @@
+.content {
+  min-height: 100vh;
+  padding: 3.2rem;
+  color: var(--black);
+}
+
+.companyName {
+  font-size: 3.2rem;
+  color: var(--color-primary);
+  letter-spacing: -1px;
+  margin-bottom: 4.8rem;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}

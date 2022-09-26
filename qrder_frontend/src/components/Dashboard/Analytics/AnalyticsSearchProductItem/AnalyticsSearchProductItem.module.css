@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  letter-spacing: -0.5px;
+  transition: 300ms all;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid var(--black-mid-opacity);
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: var(--white-background);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 45px;
+  height: 45px;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.name {
+  font-size: 1.8rem;
+}
+
+.price {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+}

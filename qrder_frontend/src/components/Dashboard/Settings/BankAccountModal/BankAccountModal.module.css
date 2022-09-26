@@ -1,0 +1,18 @@
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 3.8rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btnBox {
+  margin-top: auto;
+}

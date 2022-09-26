@@ -1,0 +1,7 @@
+export enum RepeatedDiscount {
+  NOT_REPEATED = 'NOT_REPEATED',
+  DAILY = 'DAILY',
+  SPECIFIC_DAYS = 'SPECIFIC_DAYS',
+  WEEKLY = 'WEEKLY',
+  MONTHLY = 'MONTHLY',
+}

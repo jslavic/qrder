@@ -1,0 +1,58 @@
+.info {
+  position: relative;
+  padding: 0 9.6rem;
+  display: flex;
+  gap: 9.6rem;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.heading {
+  flex: 1;
+  position: relative;
+}
+
+.headingTitle {
+  font-size: 7.2rem;
+  letter-spacing: -4px;
+  margin-bottom: 4.2rem;
+  line-height: 1.1;
+}
+
+.headingContent {
+  color: #bbb;
+  font-size: 2rem;
+}
+
+.features {
+  flex: 1;
+}
+
+.featureBox:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.featureIconBox {
+  position: relative;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #7f5eff;
+  margin-bottom: 1.2rem;
+}
+
+.featureIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.featureTitle {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.featureParahraph {
+  color: #bbb;
+}

@@ -1,0 +1,102 @@
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 4.8rem;
+}
+
+.content {
+  display: flex;
+  height: calc(100% - 8.6rem);
+  gap: 5%;
+}
+
+.content__main {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input {
+  padding: 1.2rem 0.8rem !important;
+}
+
+.content input[type="file"] {
+  display: none;
+}
+
+.fileInput {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--black);
+  background-color: #efefef;
+  font-size: 13px;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  border-radius: 4px;
+  padding: 1px 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 300ms;
+  margin-bottom: 1.8rem;
+}
+
+.fileInput:hover {
+  filter: brightness(0.9);
+}
+
+.uploadedImage {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.btn__add {
+  font-weight: bold;
+  padding: 1.4rem 3.2rem;
+  background-color: var(--color-primary-dark);
+}
+
+.sideSection {
+  height: 45%;
+  border-radius: 20px;
+}
+
+.sideTitle {
+  font-size: 2.2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin-bottom: 1rem;
+}
+
+.discounts,
+.addons {
+  padding: 1rem;
+  overflow-x: scroll;
+  scrollbar-width: 0;
+}
+
+.discounts::-webkit-scrollbar,
+.addons::-webkit-scrollbar {
+  display: none;
+}
+
+.discounts {
+  background-color: var(--color-green);
+}
+
+.addons {
+  background-color: var(--color-blue);
+}

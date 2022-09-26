@@ -1,0 +1,19 @@
+.section {
+  padding: 9.6rem 0;
+}
+
+.highlight__dark {
+  color: #6943ff;
+}
+
+.highlight__light {
+  color: #997eff;
+}
+
+.underline {
+  overflow: visible;
+  background-image: url("../../assets/underline.svg");
+  background-position: 50% 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,170 @@
+.item {
+  box-shadow: 0 0 1px var(--black);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.6rem;
+  border-spacing: 10px;
+  transition: all 300ms;
+}
+
+.item td {
+  padding: 1.6rem 0.8rem;
+}
+
+.location {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.date {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.price {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.iconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.spacer {
+  height: 2.4rem;
+}
+
+.extraInfo {
+  border-radius: 10px;
+  padding: 2rem;
+  width: 100%;
+  box-shadow: 0 0 1px var(--black);
+  background-color: var(--white-background2);
+}
+
+.orderId {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.orderedAt {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 2.4rem;
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.orderedItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 1px var(--white-dark);
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.infoBox {
+  display: flex;
+  align-items: center;
+}
+
+.infoContent {
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+}
+
+.productImage {
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 1.8rem;
+}
+
+.qty {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-right: 1.8rem;
+  color: var(--color-primary-dark);
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.extrasBox {
+  margin-top: 4px;
+}
+
+.extra {
+  font-size: 1.4rem;
+  color: var(--black-light);
+}
+
+.extraPrice {
+  color: var(--color-primary-dark);
+}
+
+.originalPrice {
+  text-align: center;
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+
+.discount {
+  font-size: 1.2rem;
+}
+
+.paymentBox {
+  margin-top: 2.4rem;
+}
+
+.revenue,
+.finalRevenue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.revenueDesc {
+  font-size: 1.6rem;
+}
+
+.profit {
+  color: var(--color-green);
+  font-weight: bold;
+}
+
+.loss {
+  color: var(--color-red);
+  font-weight: bold;
+}
+
+.finalRevenue__desc {
+  font-weight: bold;
+}
+
+.finalRevenue__total {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--color-primary-dark);
+}

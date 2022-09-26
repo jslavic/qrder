@@ -1,0 +1,9 @@
+.loadingBox {
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 20px;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

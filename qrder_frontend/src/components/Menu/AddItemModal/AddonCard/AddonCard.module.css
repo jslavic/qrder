@@ -1,0 +1,51 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.info {
+  display: flex;
+}
+
+.name {
+  margin-right: 0.8rem;
+}
+
+.price {
+  color: var(--color-primary);
+}
+
+.btnBox {
+  display: flex;
+  align-items: center;
+}
+
+.btnBox *:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.btn {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  height: 24px;
+  width: 24px;
+}
+
+.icon {
+  display: flex;
+  position: relative;
+  background-color: var(--color-primary-opacity);
+  border-radius: 50%;
+  transition: 300ms all;
+  height: 24px;
+  width: 24px;
+}
+
+.btn:hover .icon,
+.btn:active .icon {
+  opacity: 0.8;
+  cursor: pointer;
+  transform: scale(1.1);
+}

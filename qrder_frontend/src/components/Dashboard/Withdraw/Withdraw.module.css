@@ -1,0 +1,79 @@
+.mainBox {
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 20px;
+}
+
+.contentBox {
+  width: 100%;
+  padding: 2rem;
+  color: var(--black);
+  letter-spacing: -0.5px;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7.2rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-primary-dark);
+}
+
+.section {
+  margin-bottom: 6.4rem;
+}
+
+.desc {
+  letter-spacing: -0.5px;
+  margin-bottom: 2.4rem;
+}
+
+.selectBox {
+  display: flex;
+  align-items: center;
+}
+
+.amountInput {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.5rem;
+  width: 15rem;
+  border: 1px solid var(--black-mid-opacity);
+  border-radius: 8px;
+  padding: 14px 12px;
+  box-shadow: 0px 2px 4px var(--black-low-opacity);
+  margin-right: 5rem;
+}
+
+.amountInput:focus {
+  outline: 2px solid var(--color-primary-dark);
+  border: 1px solid transparent;
+}
+
+.amountSlider {
+  height: 2rem;
+  transform: translateY(-10px);
+}
+
+.btnBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  font-weight: bold;
+  background-color: var(--color-green);
+  color: var(--white);
+  font-size: 1.6rem;
+  padding: 14px 38px;
+  border-radius: 8px;
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+}

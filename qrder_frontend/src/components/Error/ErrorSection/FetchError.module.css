@@ -1,0 +1,35 @@
+.centered {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--black);
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 0.6rem;
+}
+
+.textError {
+  margin-bottom: 1.2rem;
+}
+
+.retryIcon {
+  margin-right: 1.2rem;
+}
+
+.btn__error {
+  font-size: 1.4rem !important;
+  font-weight: bold;
+  background-color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 0 !important;
+  border-radius: 30px !important;
+  min-width: 35rem;
+}

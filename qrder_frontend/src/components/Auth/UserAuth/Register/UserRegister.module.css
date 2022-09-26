@@ -1,0 +1,17 @@
+.endBox {
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.link,
+.link:link,
+.link:visited {
+  color: var(--black-light);
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.link:hover,
+.link:active {
+  filter: opacity(0.8);
+}

@@ -1,0 +1,240 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 55rem;
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: 300ms all;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.orderLocation {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.orderDate,
+.customer,
+.orderId {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--black-light);
+}
+
+.extraNote {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--black);
+  background-color: #c6d8ff;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.showButton {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: var(--black-light);
+}
+
+.showButton:hover,
+.showButton:active {
+  opacity: 0.6;
+}
+
+.divider {
+  display: block;
+  margin: 0.5rem auto;
+  width: 85%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.items__maxLength {
+  min-height: 38rem;
+}
+
+.orderContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderDetails {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.orderItemImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 1.2rem;
+  font-size: 0rem;
+}
+
+.orderItemName {
+  font-weight: bold;
+}
+
+.orderItemName {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.orderItemPrice {
+  font-size: 1.4rem;
+  color: var(--black-light);
+}
+
+.orderQty {
+  font-size: 2.2rem;
+  margin-right: 0.8rem;
+  width: 3rem;
+  text-align: center;
+}
+
+.extrasTitle {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.extrasBox {
+  background-color: var(--white-background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  line-height: 1;
+  padding: 0.4rem;
+}
+
+.extrasTitle {
+  margin-bottom: 0.6rem;
+}
+
+.extrasList {
+  list-style: none;
+}
+
+.extrasItem {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.5px;
+}
+
+.extrasPrice {
+  color: var(--black-light);
+}
+
+.paginationBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.paginationText {
+  font-size: 1.2rem;
+  color: var(--black-light);
+}
+
+.buttons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn__left,
+.btn__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid var(--black-light);
+  background-color: var(--white-background);
+  cursor: pointer;
+}
+
+.confirmationBox {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceInfoBox {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+
+.buttonsBox {
+  display: flex;
+  align-items: center;
+}
+
+.buttonsBox button:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.confirmButton,
+.declineButton {
+  cursor: pointer;
+  padding: 1rem;
+  line-height: 1;
+  border-radius: 8px;
+  transition: all 500ms;
+}
+
+.confirmButton:hover,
+.confirmButton:active,
+.declineButton:hover,
+.declineButton:active {
+  opacity: 0.6;
+}
+
+.confirmButton {
+  border: none;
+  background-color: var(--color-green);
+}
+
+.declineButton {
+  border: none;
+  background-color: var(--color-red);
+}
+
+.acceptedBox {
+  color: var(--white);
+  background-color: var(--color-primary-dark);
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.acceptedIcon {
+  width: 18px;
+  height: 18px;
+  margin-left: 0.8rem;
+}

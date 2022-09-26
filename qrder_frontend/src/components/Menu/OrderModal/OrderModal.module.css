@@ -1,0 +1,43 @@
+.popup {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--color-primary);
+  color: var(--white);
+  padding: 1.6rem 3.8rem;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.8rem;
+  transition: 300ms all;
+}
+
+.popup:hover {
+  cursor: pointer;
+  transform: translateY(-5%) scale(1.05);
+}
+
+.modalContentEnter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.modalContentEnterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: 1000ms all;
+}
+.modalContentEnterDone {
+  opacity: 1;
+  transform: translateX(0);
+}
+.modalContentExit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.modalContentExitActive {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: 1000ms all;
+}

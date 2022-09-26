@@ -1,0 +1,53 @@
+.footer {
+  padding: 9.6rem;
+  background: radial-gradient(95% 60% at 50% 95%, #2a2541 0%, #111013 100%);
+  display: flex;
+  justify-content: space-around;
+}
+
+.logoBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 6.4rem;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-top: auto;
+}
+
+.title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.extras {
+  list-style: none;
+}
+
+.extras li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.extras li a,
+.extras li a:link,
+.extras li a:visited {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  transition: 300ms all;
+}
+
+.extras li a:hover,
+.extras li a:active {
+  opacity: 0.4;
+}

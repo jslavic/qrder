@@ -1,0 +1,28 @@
+.searchBar {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.4rem;
+  width: 50rem;
+  border: 1px solid rgba(16, 16, 18, 0.1);
+  border-radius: 20px;
+  padding: 12px 8px;
+  padding-left: 4rem;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 5%);
+}
+
+.searchBar:focus {
+  outline: 2px solid var(--color-primary);
+  border: 1px solid transparent;
+}
+
+.searchDiv {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-50%);
+}

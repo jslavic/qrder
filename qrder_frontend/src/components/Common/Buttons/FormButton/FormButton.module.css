@@ -1,0 +1,24 @@
+.btn,
+.btn:link,
+.btn:visited {
+  background-color: var(--color-primary);
+  color: #fff;
+  font-size: var(--default-fontsize);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  display: inline-block;
+  padding: 1.2rem 2rem;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: auto;
+  transition: 300ms;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.8;
+  cursor: pointer;
+}

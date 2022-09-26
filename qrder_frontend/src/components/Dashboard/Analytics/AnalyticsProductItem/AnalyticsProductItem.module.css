@@ -1,0 +1,173 @@
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+}
+
+.titleImg {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 16px;
+}
+
+.smallBox {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  grid-row: span 2;
+}
+
+.otherItemTitle {
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.otherItemDesc {
+  font-size: 1.4rem;
+  color: var(--black-light);
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+.otherItemList {
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.otherItemBox {
+  display: flex;
+  align-items: center;
+}
+
+.otherItemBox:not(:first-child) {
+  padding-top: 1.6rem;
+}
+
+.otherItemBox:not(:last-child) {
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid var(--black-mid-opacity);
+}
+
+.otherItemImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 1.2rem;
+}
+
+.otherItemInfo {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -0.5px;
+}
+
+.otherItemOrders {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.discountTitle {
+  text-align: center;
+  letter-spacing: -0.5px;
+  margin-bottom: 1.2rem;
+}
+
+.discountBox {
+  height: 27rem;
+  overflow-y: scroll;
+  border: 1px solid var(--black-mid-opacity);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.discountItem:not(:last-child) {
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--black-mid-opacity);
+  letter-spacing: -1px;
+}
+
+.discountItem:not(:first-child) {
+  padding-top: 1.2rem;
+}
+
+.discountNameBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.discountName {
+  letter-spacing: -0.5px;
+  font-weight: bold;
+}
+
+.discountDate {
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+  color: var(--black-light);
+  margin-bottom: 1.8rem;
+}
+
+.subsectionTitlte {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.discountStatSection {
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.discountStat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.discountText {
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+}
+
+.discountNumber {
+  font-weight: bold;
+  color: var(--color-primary-dark);
+}
+
+.discountPercentage {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-green);
+}
+
+.secondChartBox {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.todaySales {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: var(--color-blue);
+  margin-right: 10px;
+}
+
+.tooltipBox {
+  padding: 2rem 2rem 1.4rem 2rem;
+  border-radius: 10px;
+  background-color: var(--color-blue);
+  color: var(--white);
+}

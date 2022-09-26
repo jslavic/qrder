@@ -1,0 +1,23 @@
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 2.4rem;
+}
+
+.input {
+  padding: 1.2rem 0.8rem !important;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn__add {
+  font-weight: bold;
+  padding: 1.4rem 3.2rem;
+  background-color: var(--color-primary-dark);
+}

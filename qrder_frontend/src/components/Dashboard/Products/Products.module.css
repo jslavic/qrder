@@ -1,0 +1,77 @@
+.mainBox {
+  background-color: var(--white);
+  padding: 2.4rem;
+  border-radius: 20px;
+}
+
+.mainBox:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+.contentBox {
+  width: 100%;
+  padding: 2rem;
+  color: var(--black);
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4.8rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-primary-dark);
+}
+
+.title__green {
+  color: var(--color-green);
+}
+
+.title__blue {
+  color: var(--color-blue);
+}
+
+.btn:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 1.2rem 2.2rem;
+}
+
+.btn__product {
+  background-color: var(--color-primary-dark);
+}
+
+.btn__discount {
+  background-color: var(--color-green);
+}
+
+.btn__addon {
+  background-color: var(--color-blue);
+}
+
+.productsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.productsTable thead tr {
+  border-bottom: 2px solid var(--black-light);
+}
+
+.productsTable thead tr th {
+  color: var(--black-light);
+  font-size: 1.4rem;
+  padding-bottom: 1.2rem;
+  text-align: start;
+}
+
+.productsTable tbody tr td {
+  border-bottom: 1.5px solid var(--black-mid-opacity);
+}

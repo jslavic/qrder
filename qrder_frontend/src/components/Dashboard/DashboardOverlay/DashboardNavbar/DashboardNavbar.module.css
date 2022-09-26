@@ -1,0 +1,14 @@
+.navbar {
+  background-color: var(--white-shade);
+  color: var(--black);
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.companyName {
+  letter-spacing: -0.5px;
+  color: var(--black-light);
+}

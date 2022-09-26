@@ -1,0 +1,271 @@
+.mainBox {
+  padding: 2.4rem;
+  border-radius: 20px;
+  color: var(--black);
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.8rem;
+}
+
+.title {
+  font-size: 3.8rem;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: var(--color-primary-dark);
+}
+
+.subtitle {
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+  filter: opacity(0.6);
+}
+
+.gridBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 2.8rem;
+}
+
+.chartBox,
+.smallBox {
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.chartBox {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.chartHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chartTitle {
+  font-size: 1.4rem;
+  color: var(--black-high-opacity);
+  margin-bottom: 8px;
+}
+
+.datePicker {
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+.salesInfo {
+  display: flex;
+  align-items: flex-end;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.todaySales {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: var(--color-primary-dark);
+  margin-right: 10px;
+}
+
+.todayPercentage {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.todayPercentagePositive {
+  color: var(--color-green);
+}
+
+.todayPercentagePositive svg g {
+  fill: var(--color-green);
+}
+
+.todayPercentageNegative {
+  color: var(--color-red);
+}
+
+.todayPercentageNegative svg {
+  transform: scaleY(-1);
+}
+
+.todayPercentageNegative svg g {
+  fill: var(--color-red);
+}
+
+.chartIcon {
+  margin-right: 4px;
+}
+
+.tooltipBox {
+  padding: 2rem 2rem 1.4rem 2rem;
+  border-radius: 10px;
+  background-color: var(--color-primary-dark);
+  color: var(--white);
+}
+
+.tooltipPrice {
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.tooltipLabel {
+  font-size: 1.2rem;
+  filter: opacity(0.8);
+}
+
+.balanceBox,
+.earningsBox,
+.avarageBox,
+.itemSoldBox {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.iconBox {
+  display: flex;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.4rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  fill: var(--white);
+}
+
+.desc {
+  font-size: 1.6rem;
+  filter: opacity(0.6);
+  margin-bottom: 1.2rem;
+}
+
+.amount {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.balanceBox .iconBox {
+  background-color: var(--color-green);
+}
+
+.balanceBox .amount {
+  color: var(--color-green);
+}
+
+.earningsBox .iconBox {
+  background-color: var(--color-blue);
+}
+
+.earningsBox .amount {
+  color: var(--color-blue);
+}
+
+.avarageBox .iconBox {
+  background-color: var(--color-orange);
+}
+
+.avarageBox .amount {
+  color: var(--color-orange);
+}
+
+.itemSoldBox .iconBox {
+  background-color: var(--color-grey);
+}
+
+.itemSoldBox .amount {
+  color: var(--color-grey);
+}
+
+.salesBox {
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--white);
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 2;
+}
+
+.salesHeading {
+  font-size: 1.8rem;
+  color: var(--black-high-opacity);
+  margin-bottom: 3.2rem;
+  letter-spacing: -0.5px;
+}
+
+.salesTableWrapper {
+  height: 25rem;
+  overflow-y: scroll;
+}
+
+.salesTableWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.salesTableWrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.salesTable {
+  width: 100%;
+  border-collapse: collapse;
+  height: 25rem;
+  overflow-y: scroll;
+}
+
+.salesTable thead tr,
+.salesTable tbody tr:not(:last-child) {
+  border-bottom: 1px solid var(--white-dark);
+}
+
+.salesTable th {
+  font-size: 1.2rem;
+  text-align: start;
+  color: var(--white-dark);
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+
+.salesTable th:last-child {
+  text-align: end;
+}
+
+.salesTable tbody td {
+  padding: 1.2rem 0;
+}
+
+.salesName {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.salesName img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1.2rem;
+  border-radius: 8px;
+}
+
+.salesAmount {
+  font-size: 1.6rem;
+}
+
+.salesEarnings {
+  color: var(--color-primary-dark);
+  font-weight: bold;
+}

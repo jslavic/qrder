@@ -1,0 +1,52 @@
+.title {
+  text-align: center;
+  font-size: 3.6rem;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: var(--color-primary);
+}
+
+.items {
+  height: 100%;
+}
+
+.itemNumber {
+  text-align: center;
+  color: var(--black-light);
+  margin-bottom: 3.2rem;
+}
+
+.tipBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  display: block;
+  color: var(--black);
+  background-color: transparent;
+  font-size: 1.5rem;
+  border: 1px solid rgba(16, 16, 18, 0.2);
+  border-radius: 8px;
+  padding: 12px 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  width: 15%;
+}
+
+.icon {
+  margin-right: 0.8rem;
+  width: 20px;
+  height: 20px;
+}
+
+.submitBtn {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  padding: 1.4rem 0;
+  border-radius: 30px;
+  margin-top: 1.8rem;
+}
